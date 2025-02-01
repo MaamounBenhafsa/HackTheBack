@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+*.venv/* -text
+*.venv/* eol=lf
+*.venv/* text=auto
+/.venv/* -text
+/.venv/* eol=lf
+/.venv/* text=auto
+.venv/* -text
+.venv/* eol=lf
+.venv/* text=auto
+
